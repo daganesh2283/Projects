@@ -1,0 +1,27 @@
+# Caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# Node.js dependencies and builds
+**/node_modules/
+**/dist/
+.npm/
+npm-debug.log*
+
+# OS metadata and logs
+.DS_Store
+Thumbs.db
+*.log
+outputs/pipeline.log
+
+# IDE config files
+.idea/
+.vscode/
+.git/
+.gitignore
+.gitattributes
